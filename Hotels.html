@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="png" href="assets/icons/logo.png" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/Header.css">
+    <link rel="stylesheet" href="assets/footer.css">
+    <link rel="stylesheet" href="assets/Hotels.css">
+</head>
+<body>
+    <div class="body_intro">
+        <header class="header">
+            <div class="box">
+                <a class="box_a" href="Main.html"><div class="box_logo">
+                    <img id="profile_image" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre">
+                    <h3 class="header_elements" style="margin-left: 0px; font-weight: 650;">Tripadviser</h3>
+                </div></a>
+                <input type="text" class="search header_elements" placeholder="Search">
+            </div>
+            <div class="box2">
+                <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/pencil.png" alt=""> Review</div></a>
+                <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/heart.png" alt=""> Trips</div></a>
+                <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/tic-tac.png" alt=""> Alerts</div></a>
+                <a class="box_a" href="Airlines.html"><div class="header_elements_sign">Sign in</div></a>
+            </div>
+        </header>
+
+    </div>
+    
+    <div class="one">
+        <div class="one_div">
+            <a id="one_id" href="Main.html"><div class="one_elements">Istanbul</div></a>
+            <a id="one_id" href="Hotels.html"><div class="one_elements">Hotels</div></a>
+            <a id="one_id" href="things.html"><div class="one_elements">Things to do</div></a>
+            <a id="one_id" href="Restaurants.html"><div class="one_elements">Restaurants</div></a>
+            <a id="one_id" href="Airlines.html"><div class="one_elements">Flights</div></a>
+            <a id="one_id" href="apartments.html"><div class="one_elements">Holiday Rentals</div></a>
+            <a id="one_id" href=""><div class="one_elements">Shopping</div></a>
+            <a id="one_id" href=""><div class="one_elements">Package Holidays</div></a>
+            <a id="one_id" href=""><div class="one_elements">Cruises</div></a>
+            <a id="one_id" href=""><div class="one_elements">Car Hire</div></a>
+            <a id="one_id" href=""><div class="one_elements">•••</div></a>
+        </div>
+    </div>
+
+    <div class="two">
+        <div class="two_element">
+            <p>Europe > Turkey > Istanbul > Istanbul Hotels</p>
+        </div>
+        <div class="two_element">
+            <p>Istanbul Tourism: Best of Istanbul</p>
+        </div>
+    </div>
+    
+    <div class="three">
+        <div class="three_in">
+            <h2>Istanbul Hotels and Places to Stay</h2>
+            <p>Enter dates to find the best prices</p>
+            <div class="three_inputs">
+                <input class="date_input" type="date" value="Enter dates">
+            </div>
+        </div>
+    </div>
+
+    <div class="intro">
+        <div class="four">
+            <div class="four_top">
+                <div class="four_top_left">
+                    <h5>5,614 properties in Istanbul</h5>
+                    <p>Payments made by partners impact the order of prices displayed. Room types may vary.</p>
+                </div>
+                <div class="four_top_right">
+                    <button class="top_button" onclick="document.location='map.html'">Map</button>
+                    <select class="custom-select mr-sm-2 select1" id="inlineFormCustomSelect">
+                        <option selected>Best value</option>
+                        <option value="1">Traveller ranking</option>
+                        <option value="2">Price</option>
+                        <option value="3">Distance to city centre</option>
+                    </select>                
+                </div>
+            </div>
+
+            <div class="four_inner">
+
+                <div class="four_left">
+                    <h6>COVID-19 <div class="button"> ></div></h6>
+                    <h6>Deals <div class="button"> ></div></h6>
+                    <h6>Price <div class="button"> ></div></h6>
+                    <h6>Popular <div class="button"> ></div></h6>
+                    <h6>Property types <div class="button"> ></div></h6>
+                    <h6>Ameneties <div class="button"> ></div></h6>
+                    <h6>Distance from <div class="button"> ></div></h6>
+                    <h6>Neighbourhood <div class="button"> ></div></h6>
+                    <h6>Traveller rating <div class="button"> ></div></h6>
+                    <h6>Hotel class <div class="button"> ></div></h6>
+                    <h6>Style <div class="button"> ></div></h6>
+                    <h6>Brand <div class="button"> ></div></h6>
+                </div>
+
+                <div class="four_hotels">
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/mysuite-istanbul.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <div style="margin-left: 0px;" id="sponsored">Sponsored</div>
+                                <a href=""><h5>MySuite Istanbul</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">335</a>
+                                    </div>
+                                <h6>Beyoglu</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Expedia.com</a></h6>
+                                    </div>
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">andrewwC5858UW</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"They also have an airport transfer option which makes getting to and from the airport super easy."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href="" style="text-decoration: underline;"><h6 id="part_about_3">Visit website</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/1.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <a href=""><h5>1. Hotel Sultania</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">255</a>
+                                    </div>
+                                <h6>Sirkeci</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Expedia.com</a></h6>
+                                    </div>
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">Culture280014</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"Awsome hotel excellant service good location in the heart of the historical center rooms are clean and perfect breakfast is delicious and the employees is nice and helpful specifically a very nice lady her name is..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/2.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <a href=""><h5>2. Sura Hagia Sophia Hotel</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">339</a>
+                                    </div>
+                                <h6>Sultanahmet</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 42,482</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 33,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 35,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Expedia.com</a></h6>
+                                    </div>
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">katerynak994</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"Wonderfull and amazing it was a great experience we had a great time with my family (outstanding) , pool was great , breakfast well organized and front office had everything you ever wish staff is so nice speciall..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/3.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <a href=""><h5>3. Romance Istanbul Hotel</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">2374</a>
+                                    </div>
+                                <h6>Sultanahmet</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,539</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Expedia.com</a></h6>
+                                    </div>
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">IdanC861</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"... delicious pasties and simge is great chef for breakfast buffet and thank you murat usta for wide variety of amazing breakfast that was so good, great hotel with great team thanks a lot for looking aftering us"</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/4.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <a href=""><h5>4. Conrad Istanbul Bosphorus</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">5487</a>
+                                    </div>
+                                <h6>Sultanahmet</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Expedia.com</a></h6>
+                                    </div>
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">By uniknour</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"Ahmet, Dilek, engin and all the reception and restaurant team were just amazing 10/10 service and kindness and the hotel is really the perfect place we were looking for and this will definitely become our go to ho..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href="" style="text-decoration: underline;"><h6 id="part_about_3">Visit website</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/5.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <a href=""><h5>5. YOTEL Istanbul Airport Hotel (Landside)</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">618</a>
+                                    </div>
+                                <h6>New City / Taksim</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo2.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Expedia.com</a></h6>
+                                    </div>
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href=""> ChiaraMEP</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"A special shout out goes to the following exceptional staff for their exemplary service: - Murat, restaurant manager: thank you for your warm welcome and for managing a great team; the food is amazing - Kenan and..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/6.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div id="sponsored">Sponsored</div>
+                            <div class="part_name">
+                                <a href=""><h5>Novotel Istanbul Bosphorus</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">892</a>
+                                    </div>
+                                <h6>Karakoy</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">Culture280014</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"Awsome hotel excellant service good location in the heart of the historical center rooms are clean and perfect breakfast is delicious and the employees is nice and helpful specifically a very nice lady her name is..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href="" style="text-decoration: underline;"><h6 id="part_about_3">Visit website</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/7.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <a href=""><h5>6. Hotel Yasmak Sultan</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">2153</a>
+                                    </div>
+                                <h6>Sirkeci</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">rowlah</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"Rooms are comfy and cozy and the breakfast buffet is mouthwatering 🤤 everything they serve is delicious 😍 The staff are very welcoming and helpful especially the captain chef Yavuz.. He's the friendliest and fun..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href="" style="text-decoration: underline;"><h6 id="part_about_3">Visit website</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/8.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div id="sponsored">Sponsored</div>
+                            <div class="part_name">
+                                <a href=""><h5>7. Hotel DeCamondo Galata</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">269</a>
+                                    </div>
+                                <h6>Karakoy</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">NReardon</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"P.s. the rooftop bar offers amazing views over the Bosphorous and old town, the location is perfect, close to everything, the rooms are large and offer all the comforts with Turkish bathrobes and delicious breakfa..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href="" style="text-decoration: underline;"><h6 id="part_about_3">Visit website</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="part">
+                        <div class="part_img">
+                            <a href=""><img src="assets/Resources/Hotels/9.jpg" alt=""></a>
+                        </div>
+                        <div class="about_hotel">
+                            <div class="part_name">
+                                <a href=""><h5>8. Radisson Blu Hotel Istanbul Ottomare</h5></a>
+                                    <div>
+                                        <img src="assets/icons/Hotels/rank.png" style="width: 80px; margin-top: 0;">
+                                        <a href="">736</a>
+                                    </div>
+                                <h6>Karakoy</h6>
+                            </div>
+                            <div class="part_inf">
+                                <div class="part_price">
+                                    <a href=""><img id="hotel_logo" src="assets/icons/Hotels/logo.png"></a>
+                                    <a id="price" href=""><h4>KZT 39,376</h4></a>
+                                    <button id="part_button">View deal</button>
+                                    <h6>✓ Free cancellation</h6>
+                                </div>
+                                <div class="part_2">
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                    <div>
+                                        <h6><a id="part_2_price" href="">KZT 39,378</a> <br><a id="part_2_name" href="">Tripadviser</a></h6>
+                                    </div>
+                                
+                                </div>
+                                <div class="part_about">
+                                    <div style="display: flex;flex-direction: row;">
+                                        <a href=""><img id="part_about_profile" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre"></a>
+                                        <h5>By <a id="profile_name" href="">D8928NJmohammedm</a></h5>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_2">"Quiet area and the staff was so amenable to any request.The decor was beautiful, everyone was super friendly and helpful, the cocktails at bar were strong and delicious, thanks to the lady at the lobby for all the..."</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><h6 id="part_about_3">Taking safety measures</h6></a>
+                                    </div>
+                                    <div>
+                                        <a href="" style="text-decoration: underline;"><h6 id="part_about_3">Visit website</h6></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>   
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer_intro">
+            <div class="footer_top">
+                <div class="footer_left">
+                    <img id="profile_image" style="margin-left: 0px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre">
+                    <div class="footer_top_top">
+                        <div style="font-size: 12px;">© 2021 TripAdvisor LLC All rights reserved.</div>
+                        <div class="nav">
+                            <a id="nav_a" href="#">Terms of Use</a>
+                            <a id="nav_a" href="#">Privacy and Cookies Statement</a>
+                            <a id="nav_a" href="#">Cookie consent</a>
+                            <a id="nav_a" href="#">Site Map</a>
+                            <a id="nav_a" href="#">How the site works</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="select">
+                    <select class="custom-select" id="inputGroupSelect02">
+                        <option selected>£ British Pounds</option>
+                        <option value="1">$ U. S. Dollars</option>
+                        <option value="2">A$ Australian Dollars </option>
+                        <option value="3">Euros</option>
+                    </select>
+                    <select class="custom-select" id="inputGroupSelect02">
+                        <option selected>United Kingdom</option>
+                        <option value="1">Canada</option>
+                        <option value="2">Brazil</option>
+                        <option value="3">Russian</option>
+                    </select>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p>
+                    This is the version of our website addressed 
+                    to speakers of English in United Kingdom. If you are 
+                    a resident of another country or region, please 
+                    select the appropriate version of Tripadvisor 
+                    for your country or region in the drop-down menu. <a>more</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

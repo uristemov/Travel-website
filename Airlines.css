@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+/*======================== Main =========================*/
+*{
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.body_intro{
+  color: black;
+  margin: 0 auto;
+  width: 1100px;
+  background-color: rgb(255, 255, 255);
+  font-size: medium;
+}
+@media (max-width: 1280px) {
+  .body_intro{
+    width: 100%;
+  }
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin-bottom: 60px;
+}
+  
+.main .content{
+  text-align: center;
+}
+  
+.main .content h3{
+  font-size: 70px;
+  color:#fff;
+  outline: grey;
+}
+  
+.main .content p{
+  font-size: 30px;
+  color:rgba(236, 243, 245, 0.726);
+}
+ 
+.main .video-container img{
+  position: absolute;
+  top: 70px; 
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+
+
+
+/* ===================== Restaurants ====================*/
+
+.categories {
+  margin: 50px;
+}
+
+.small-container {
+  max-width: 1080px;
+
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  margin-bottom: 30px;
+}
+
+.col-2 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+
+/*======================= Chefs =====================*/
+.col-4 img {
+  width: 100%;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+} 
+
+@media only screen and (max-width: 600px) {
+  .row {
+      text-align: center;
+
+  }
+
+  .col-2, .col-3, .col-4 {
+      flex-basis: 100%;
+  }
+}
+
+
+
+/*====================Airlines=================*/
+.dates{
+          
+    display: flex;
+    margin: 0% auto;
+    width: 400px;
+    justify-content: space-between;
+}
+
+/*================== Manufacturers ================*/
+
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+    margin-bottom: 50px;
+}
+
+.col-5 img {
+    width: 100px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    padding-bottom: 40px;
+}
+
+.col-5 img:hover {
+    filter: grayscale(0%);
+}

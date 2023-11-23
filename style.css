@@ -1,0 +1,151 @@
+/* THINGS TO DO */
+.main-text{
+          display: flex;
+          justify-content: space-between;
+          width: 1150px;
+          margin: auto;
+}
+
+
+.main-text h1{
+          font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+          font-size: "32px";
+          line-height: "38px";
+          font-style: normal;
+}
+.sub-text{
+          font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+          font-size: "24px";
+          font-weight: "700";
+          line-height: "29px";
+          font-style: normal;
+}
+.populars{
+          display: flex;
+          width: 1150px;
+          margin: auto;
+          justify-content: space-between;
+}
+ .populars img {
+          width: 208px;
+          height: 208px;
+          filter: brightness(80%);
+}
+.inner-popular h1{
+
+          font-size: "13px";
+          color: rgb(255, 255, 255);
+}
+.line-hr{
+          width: 1150px;
+          margin: auto;
+}
+.ways{
+          display: flex;
+          width: 1150px;
+          margin: auto;
+          justify-content: space-between;
+}
+.ways img{
+          width: 275px;
+          height: 275px;
+}
+.ways-info{
+          width: 275px;
+}
+.ways-info h1{
+          font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+          font-style: normal;
+}
+
+.tops{
+          margin: auto;
+          width: 1150px;
+          display: flex;
+          justify-content: space-between;
+}
+.top{
+          width: 370px;
+          height: 600px;
+          /* background-color: aqua; */
+}
+.top img{
+          width: 370px;
+          height: 370px;
+}
+.comment{
+          width: 370px;
+          margin: 1%;
+}
+/* EFFECTS */
+.inner-popular .pop_img:hover {
+          opacity: 0.8;
+}
+.some-way img:hover{
+           opacity: 0.8;
+}
+.main-h1{
+          text-decoration: underline;
+}
+
+.some-way h1{
+          font-weight: 700;
+}
+.one-way img:hover{
+          opacity: 0.8;
+}
+
+.top img:hover{
+          opacity: 0.8;
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 900px) {
+          .main-text h1{
+                    font-size: 70px;
+          }
+          .main-text button{
+                    font-size: 30px;
+                    width: 200px;
+          }
+
+          .populars {
+                    flex-direction: column;
+                    justify-content: center;
+          }
+          .inner-popular {
+                    flex-basis: 100%;
+                    width: 500px;
+                    margin: 3% auto;
+          }
+          .inner-popular img{
+                    flex-basis: 100%;
+                    min-width: 500px;
+          }
+}
+
+/* COLUMNS */
+.column h1{
+          font-weight: 700;
+}
+
+.column img:hover{
+          opacity: 0.8;
+}
+
+/* .row{
+          background-color: aqua;
+          width: 80%; 
+          margin: 0 auto;
+          
+} */
+.row img{
+          width: 275px;
+          height: 275px;
+}
+.ways-info{
+          width: 275px;
+}
+.ways-info h1{
+          font-family: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
+          font-style: normal;
+}

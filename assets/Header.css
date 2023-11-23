@@ -1,0 +1,85 @@
+.header{
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search{
+    border-color: rgb(148, 147, 147);
+    width: 350px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.box{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 630;
+}
+.box_logo{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 630;
+}
+.box2{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 630;
+}
+#profile_image{
+    width: 40px;
+    height: 40px;
+}
+.header_elements{
+    margin: 0px 20px 0px 20px;
+}
+.header_elements_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+}
+.header_elements_sign{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10%;
+}
+.box_a{
+    text-decoration: none;
+    color: black;
+}
+.box_a:hover{
+    color: black;
+}
+.header_elements_menu:hover{
+    background-color: rgba(226, 225, 225, 0.1);
+}
+
+@media (max-width: 1280px){
+    .header{
+        width: 100%;
+    }
+    .header_elements_menu{
+        display: none;
+    }
+    .search{
+        width: 200px;
+    }
+    #logo_name{
+        display: none;
+    }
+}

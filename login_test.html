@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          <link rel="stylesheet" href="assets/footer.css">
+          <link rel="stylesheet" href="assets/Header.css">
+</head>
+<style>
+          body{
+                    margin: 0%;
+                    background-color:#f2f2f2 ;
+          }
+          .form-group{
+                    width: 500px;
+          }
+          .inner-main{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+          }
+
+
+
+</style>
+<body>
+
+
+
+  <header class="header">
+    <div class="box">
+        <a class="box_a" href="Main.html"><div class="box_logo">
+            <img id="profile_image" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre">
+            <h3 class="header_elements" style="margin-left: 0px; font-weight: 650;">Tripadviser</h3>
+        </div></a>
+        <input type="text" class="search header_elements" placeholder="Search">
+    </div>
+    <div class="box2">
+        <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/pencil.png" alt=""> Review</div></a>
+        <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/heart.png" alt=""> Trips</div></a>
+        <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/tic-tac.png" alt=""> Alerts</div></a>
+        <a class="box_a" href="login_test.html"><div class="header_elements_sign">Sign in</div></a>
+    </div>
+</header>
+
+
+
+          <div style="height: 700px; display: flex;flex-direction: column; justify-content: center;gap: 3%;">
+                    <div class="mini-main" style="margin: 0 auto; width: 600px;height: 400px;background-color: antiquewhite;box-shadow: 0 0 10px rgba(0, 0, 0 , 0.4);">
+                       <h1 style="color: black;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 800;text-align: center;">Log In</h1> 
+                       <div class="inner-main">
+                                        <div class="form-group">
+                                                  <label style="font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600;">Email</label>
+                                                  <input type="text" class="form-control" autocomplete="on" pattern=".{6,}" title="Six or more letters" placeholder="Enter Email" style="width: 500px;">
+                                        </div>
+                                        <div class="form-group">
+                                                  <label style="font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600;">Password</label>
+                                                  <div style="display: flex; ">
+                                                     
+                                                      <input id="passB" type="password" class="form-control"   placeholder="Enter your Password" style="width: 475px;">
+                                                      <button id="Btnpass" onclick="changePassword()">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                                                                          <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                                                                          <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                                                                        </svg>
+                                                      </button>
+              
+                                                    </div>
+                                        </div>
+                       </div>
+                       <small style="float: right; margin-right:10%;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600;" id="emailHelp" class="form-text text-muted">Forgot password?</small>
+                    </div>
+                    <div style="display: flex; margin: 0 auto;width: 600px; justify-content: space-between;">
+                              <button id="create" style="margin-left: 3%;" class="btn btn-warning" onclick="checkAll()">Log In</button>
+                              <button  class="btn btn-primary"  onclick="document.location='sign_up_test.html'" style="margin-right: 2%;">Create Account</button>
+                    </div>
+          </div>
+
+
+          <footer class="footer">
+            <div class="footer_intro">
+                <div class="footer_top">
+                    <div class="footer_left">
+                        <img id="profile_image" style="margin-left: 0px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre">
+                        <div class="footer_top_top">
+                            <div style="font-size: 12px;">© 2021 TripAdvisor LLC All rights reserved.</div>
+                            <div class="nav">
+                                <a id="nav_a" href="#">Terms of Use</a>
+                                <a id="nav_a" href="#">Privacy and Cookies Statement</a>
+                                <a id="nav_a" href="#">Cookie consent</a>
+                                <a id="nav_a" href="#">Site Map</a>
+                                <a id="nav_a" href="#">How the site works</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select">
+                        <select class="custom-select" id="inputGroupSelect02">
+                            <option selected>£ British Pounds</option>
+                            <option value="1">$ U. S. Dollars</option>
+                            <option value="2">A$ Australian Dollars </option>
+                            <option value="3">Euros</option>
+                        </select>
+                        <select class="custom-select" id="inputGroupSelect02">
+                            <option selected>United Kingdom</option>
+                            <option value="1">Canada</option>
+                            <option value="2">Brazil</option>
+                            <option value="3">Russian</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <p>
+                        This is the version of our website addressed 
+                        to speakers of English in United Kingdom. If you are 
+                        a resident of another country or region, please 
+                        select the appropriate version of Tripadvisor 
+                        for your country or region in the drop-down menu. <a>more</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+          <script>
+                    function changePassword(){
+                              var pass = document.getElementById("passB");
+                              if(document.getElementById("passB").type == "password"){
+                                        document.getElementById("passB").type = "text";
+                              }
+                              else
+                              document.getElementById("passB").type = "password";
+                    }
+          </script>
+
+
+</body>
+</html>

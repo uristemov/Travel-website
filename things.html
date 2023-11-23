@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="style.css">
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link rel="stylesheet" href="assets/Header.css">
+            <link rel="stylesheet" href="assets/footer.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <title>THE 10 BEST Things To Do</title>
+</head>
+<style>
+      .column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 1100px) {
+  .column {
+    width: 50%;
+  }
+  .testing{
+        float: right;
+  }
+.tops{
+      flex-direction: column;
+
+}
+.top{
+      margin: auto;
+}
+
+
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+        margin: auto;
+        float: none;
+        width: 60%;
+  }
+  .testing{
+        width: 275px;
+        margin: auto;
+        float:none;
+  }
+  .test-2{
+      width: 275px;
+        margin: auto;
+  }
+}
+
+</style>
+<body>
+
+      <header class="header">
+            <div class="box">
+                <a class="box_a" href="Main.html"><div class="box_logo">
+                    <img id="profile_image" style="margin-left: 0px; margin-right: 1px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre">
+                    <h3 class="header_elements" style="margin-left: 0px; font-weight: 650;">Tripadviser</h3>
+                </div></a>
+                <input type="text" class="search header_elements" placeholder="Search" onclick="document.location='search.html'">
+            </div>
+            <div class="box2">
+                <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/pencil.png" alt=""> Review</div></a>
+                <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/heart.png" alt=""> Trips</div></a>
+                <a class="box_a" href=""><div class="header_elements_menu"><img style="margin-right: 7px; width: 20px;" src="assets/icons/tic-tac.png" alt=""> Alerts</div></a>
+                <a class="box_a" href="login_test.html"><div class="header_elements_sign">Sign in</div></a>
+            </div>
+        </header>
+
+
+          <div class="main-text">
+                    <div>
+                              <h1><span>Things to Do in Istanbul</span></h1>
+                    </div>
+               
+               <button style="border-radius: 40%;width: 80px;" type="button" class="btn btn-dark" onclick="document.location='map.html'">Map</button>
+          </div>
+
+          <div class="main-text">
+                <h1><span class="sub-text" style="font-size: 24px">Popular things to do</span></h1>
+          </div>
+
+
+          <div class = "populars">
+
+            <div class="inner-popular" style="position: relative;">
+                  <img  class="pop_img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/8e/b6/07/caption.jpg?w=300&h=300&s=1" alt="">
+
+                  <h1 style="font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600;position: absolute;bottom: 0;padding: 5;font-size: 30px;">Day Cruises</h1>
+                  
+            </div>
+
+            <div class="inner-popular" style="position: relative;">
+                  <img class="pop_img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/29/86/79/caption.jpg?w=300&h=300&s=1" alt="">
+
+                  <h1 style="font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600; position: absolute;bottom: 0;padding: 5;font-size: 30px;;">Bus Tours</h1>
+            </div>
+
+            <div class="inner-popular" style="position: relative;">
+                  <img class="pop_img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/54/be/42/hagia-sophia-museum-by.jpg?w=300&h=300&s=1" alt="">
+
+                  <h1 style="font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600;position: absolute;bottom: 0;padding: 5;font-size: 30px;">Historic Sites</h1>
+            </div>
+
+            <div class="inner-popular" style="position: relative;">
+                  <img class="pop_img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/65/1a/e6/caption.jpg?w=300&h=300&s=1" alt="">
+
+                  <h1 style="font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600;position: absolute;bottom: 0;padding: 5;font-size: 30px;">Walking Tours</h1>
+            </div>
+
+            <div class="inner-popular" style="position: relative;">
+                  <img class="pop_img" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/65/1d/40/caption.jpg?w=300&h=300&s=1" alt="">
+
+                  <h1 style="font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-weight: 600;position: absolute;bottom: 0;padding: 5;font-size: 30px;">Cultural Tours</h1>
+            </div>
+
+          </div>
+          <div class="line-hr">
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+         </div>
+
+          <div class="main-text">
+                <h1 class="sub-text" style="font-size: 24px">Ways to tour Istanbul</h1>
+                <h1 style="text-decoration: underline;font-size: 16px;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;">See all</h1>
+          </div>
+          <div class="main-text">
+            <p style="font-size: 16px;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;">Book these experiences for a close-up look at Istanbul.</p>
+          </div>
+
+         <!-- START  -->
+<div class="ways" >
+
+      <div class="row" style="box-sizing: border-box;margin: auto;">
+            <div class="column">
+            <div class="testing">
+                  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5b/33/2f/caption.jpg?w=300&h=300&s=1" alt="">
+                  <div class="ways-info">
+                        <h1  class="main-h1" style="margin: 0%;font-size: 16px;">Best of Istanbul: 1, 2 or 3-Day Private Guided Istanbul Tour</h1>
+                        <p style="margin: 0%;">1053 votes</p>
+                        <p style="margin: 0%;">Bus Tours</p>
+                        <h1 style="font-size: 14px;">from £115.09 per group (up to 8)</h1>
+                  </div>
+
+            </div>
+
+
+            </div>
+            <div class="column">
+                  <div class="test-2">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/86/49/cf/caption.jpg?w=300&h=300&s=1" alt="">
+                        <div class="ways-info">
+                              <h1 class="main-h1" style="margin: 0%;font-size: 16px;">Bosphorus Sunset Cruise on Luxury Yacht</h1>
+                              <p style="margin: 0%;">336 votes</p>
+                              <p style="margin: 0%;">Sunset cruises</p>
+                              <h1 style="font-size: 14px;">from £43.39 per adult</h1>
+                        </div>
+                  </div>
+
+            </div>
+            <div class="column">
+            <div class="testing">
+                  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/8e/b6/07/caption.jpg?w=300&h=300&s=1" alt="">
+                  <div class="ways-info">
+                        <h1 class="main-h1" style="margin: 0%;font-size: 16px;">Sunset Cruise on Luxury Yacht Istanbul Bosphorus (Small-Group)</h1>
+                        <p style="margin: 0%;">47 votes</p>
+                        <p style="margin: 0%;">Sunset cruises</p>
+                        <h1 style="font-size: 14px;">from £33.87 per adult</h1>
+                  </div>
+            </div>
+
+            </div>
+            <div class="column">
+                  <div class="test-2">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5d/c1/47/caption.jpg?w=300&h=300&s=1" alt="">
+                        <div class="ways-info">
+                              <h1 class="main-h1" style="margin: 0%;font-size: 16px;">Bosphorus Dinner Cruise and Turkish Dance Shows</h1>
+                              <p style="margin: 0%;">40 votes</p>
+                              <p style="margin: 0%;">Dinner Cruises</p>
+                              <h1 style="font-size: 14px;">from £41.65 per adult</h1>
+                        </div>
+
+                  </div>
+
+            </div>
+      </div>
+
+</div>
+
+      
+
+
+
+
+
+          <!-- END  -->
+          <div class="line-hr">
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+         </div>
+
+         <div class="main-text">
+            <h1 class="sub-text" style="font-size: 24px">Recommended for You</h1>
+            <h1 style="text-decoration: underline;font-size: 16px;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;">See all</h1>
+      </div>
+      <div class="main-text">
+        <p style="font-size: 16px;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;">Tours and activities tailored to your interests.</p>
+      </div>
+         <!-- START  -->
+         <div class="ways" >
+
+            <div class="row" style="box-sizing: border-box;margin: auto;">
+                  <div class="column">
+                  <div class="testing">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/65/1a/ff/caption.jpg?w=300&h=300&s=1" alt="">
+                        <div class="ways-info">
+                              <h1  style="border: black;border-width: 2px;border-style:solid;margin: 0%;font-size: 10px;width: 120px;">LIKELY TO SELL OUT*</h1>
+                              <h1  style="margin: 0%;font-size: 16px;">Full Day: Classic Istanbul Tour Including Blue Mosque, Hippodrome, Hagia Sophia and...</h1>
+                              <p style="margin: 0%;">81 votes</p>
+                              <p style="margin: 0%;">Bus Tours</p>
+                              <h1 style="font-size: 14px;">from £49.96 per adult</h1>
+                        </div>
+      
+                  </div>
+      
+      
+                  </div>
+                  <div class="column">
+                        <div class="test-2">
+                              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/fa/19/4f/caption.jpg?w=300&h=300&s=1" alt="">
+                              <div class="ways-info">
+                                <h1 style="border: black;border-width: 2px;border-style:solid;margin: 0%;font-size: 10px;width: 120px;">SPECIAL OFFER</h1>
+                                    <h1 style="margin: 0%;font-size: 16px;">Topkapi Palace Skip-The-Line Entry with Guided Tour</h1>
+                                    <p style="margin: 0%;">17 votes</p>
+                                    <p style="margin: 0%;">Walking Tours</p>
+                                    <div style="display: flex;gap: 5px;">
+                                      <h1 style="font-size: 14px;">from</h1>
+                                      <h1 style="font-size: 14px;color: red;text-decoration: line-through;text-decoration-color: red;">£24.30</h1>
+                                      <h1 style="font-size: 14px;">£21.87 per adult</h1>
+                                    </div>
+                              </div>
+                        </div>
+      
+                  </div>
+                  <div class="column">
+                  <div class="testing">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/56/1b/9a/caption.jpg?w=300&h=300&s=1" alt="">
+                        <div class="ways-info">
+                              <h1 style="margin: 0%;font-size: 16px;">Private Day Trip from Istanbul to Ephesus and House of Virgin Mary</h1>
+                              <p style="margin: 0%;">7 votes</p>
+                              <p style="margin: 0%;">Bus Tours</p>
+                              <h1 style="font-size: 14px;">from £268.26 per adult</h1>
+                        </div>
+                  </div>
+      
+                  </div>
+                  <div class="column">
+                        <div class="test-2">
+                              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5b/33/2f/caption.jpg?w=300&h=300&s=1" alt="">
+                              <div class="ways-info">
+                                    <h1 style="margin: 0%;font-size: 16px;">Best of Istanbul: 1, 2 or 3-Day Private Guided Istanbul Tour</h1>
+                                    <p style="margin: 0%;">1053 votes</p>
+                                    <p style="margin: 0%;">Bus Tours</p>
+                                    <h1 style="font-size: 14px;">from £115.30 per group (up to 8)</h1>
+                              </div>
+      
+                        </div>
+      
+                  </div>
+            </div>
+      
+      </div>
+
+          <!-- END  -->
+
+      <div class="line-hr">
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+         </div>
+         <div style="display: flex;justify-content: center;">
+            <h1 style="line-height: 38px;font-weight: 800;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;font-size: 32px;">Top Attractions in Istanbul</h1>
+         </div>
+         <div style="display: flex;justify-content: center;">
+         <h1 style="text-decoration: underline;font-size: 16px;font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;">See all</h1>
+      </div>
+
+
+      <div class="all-tops">
+            <div class="tops">
+                  <div class="top">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/82/07/24/palacio-de-dolmabahce.jpg?w=500&h=-1&s=1" alt="">
+                        <div>
+                              <h1 style="margin: 0%;font-size: 16px;">1. Dolmabahce Palace</h1>
+                              <p style="margin: 0%;">7,896 votes</p>
+                              <p style="margin: 1% 0%;">Architectural Buildings</p>
+                              <p style="margin: 0%;">New City / Taksim</p>
+                              <h1 style="font-size: 14px;margin: 1% 0%;">Admission tickets from £19.55</h1>
+                              <div style="display: flex;align-items: center;height: 25px;gap: 5px;">
+                                    <img style="width: 24px; height: 24px; border-radius: 50%;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/9d/a0/20/vecchial.jpg?w=100&h=-1&s=1" alt="" >
+                                    <p>By veciaf53</p>
+                              </div>
+                              <div class="comment" >
+                                    <p>The palace was built in the mid-nineteenth century, in the last period of an Ottoman empire in serious economic crisis…
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="top">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/54/be/42/hagia-sophia-museum-by.jpg?w=500&h=400&s=1" alt="">
+                        <div>
+                              <h1 style="margin: 0%;font-size: 16px;">2. Hagia Sophia Mosque</h1>
+                              <p style="margin: 0%;">43,856 votes</p>
+                              <p style="margin: 1% 0%;">Historic Sites • Architectural Buildings</p>
+                              <p style="margin: 0%;">Sultanahmet</p>
+                              <h1 style="font-size: 14px;margin: 1% 0%;">Admission tickets from £25.20</h1>
+                              <div style="display: flex;align-items: center;height: 25px;">
+                                    <img style="width: 24px; height: 24px; border-radius: 50%;margin-right: 5px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/d5/default-avatar-2020-17.jpg?w=100&h=-1&s=1" alt="" >
+                                    <p>By CamTribe</p>
+                              </div>
+                              <div class="comment" >
+                                    <p>It is the 6th-century-built christian church, the shape of which greatly influenced the classic shape of all the great…
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+                              <div class="top">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/81/e6/a0/img-20181123-163637-largejpg.jpg?w=500&h=-1&s=1" alt="">
+                        <div>
+                              <h1 style="margin: 0%;font-size: 16px;">3. Sultanahmet District</h1>
+                              <p style="margin: 0%;">16,509 votes</p>
+                              <p style="margin: 1% 0%;">Neighbourhoods • Historic Walking Areas</p>
+                              <p style="margin: 0%;">Sultanahmet • Open now</p>
+                              <div style="display: flex;align-items: center;height: 25px;margin: 1% 0%;">
+                                    <img style="width: 24px; height: 24px; border-radius: 50%;margin-right: 5px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/ba/1a/3b/claudiaporto.jpg?w=100&h=-1&s=1" alt="" >
+                                    <p>By ClaudiaPorto</p>
+                              </div>
+                              <div class="comment" >
+                                    <p>The Old City reflects cultural influences of the many empires that once ruled here.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+      
+            </div>
+            <div class="tops">
+                  <div class="top">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ac/57/31/suleymaniye.jpg?w=500&h=400&s=1" alt="">
+                        <div>
+                              <h1 style="margin: 0%;font-size: 16px;">4. Suleymaniye Mosque</h1>
+                              <p style="margin: 0%;">12,305 votes</p>
+                              <p style="margin: 1% 0%;">Religious Sites</p>
+                              <p style="margin: 0%;">Grand Bazaar</p>
+                              <div style="display: flex;align-items: center;height: 25px;margin: 1% 0%;">
+                                    <img style="width: 24px; height: 24px; border-radius: 50%;margin-right: 5px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ea/74/default-avatar-2020-68.jpg?w=100&h=-1&s=1" alt="" >
+                                    <p>By davidgoldberg1</p>
+                              </div>
+                              <div class="comment" >
+                                    <p>Four towering Minarets testify to his being the 4th ruler of the conquered city, and each has 10 external galleries…
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="top">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/54/c7/fd/topkapi-palace-museum.jpg?w=500&h=400&s=1" alt="">
+                        <div>
+                              <h1 style="margin: 0%;font-size: 16px;">5. Topkapi Palace</h1>
+                              <p style="margin: 0%;">27,345 votes</p>
+                              <p style="margin: 1% 0%;">History Museums</p>
+                              <p style="margin: 0%;">Sultanahmet</p>
+                              <h1 style="font-size: 14px;margin: 1% 0%;">Admission tickets from £30.41</h1>
+                              <div style="display: flex;align-items: center;height: 25px;">
+                                    <img style="width: 24px; height: 24px; border-radius: 50%;margin-right: 5px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-l/01/2a/fd/96/avatar.jpg?w=100&h=-1&s=1" alt="" >
+                                    <p>By keegan_9</p>
+                              </div>
+                              <div class="comment" >
+                                    <p>The palace where the Sultans of Turkey ruled the Ottoman Empire-the biggest ever- for five hundred years.
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+                              <div class="top">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/e7/df/20/bosphorus-yalis.jpg?w=500&h=400&s=1" alt="">
+                        <div>
+                              <h1 style="margin: 0%;font-size: 16px;">6. Bosphorus Strait</h1>
+                              <p style="margin: 0%;">10,368 votes</p>
+                              <p style="margin: 1% 0%;">Bodies of Water</p>
+                              <p style="margin: 0%;">Sirkeci • Open now</p>
+                              <div style="display: flex;align-items: center;height: 25px;margin: 1% 0%;">
+                                    <img style="width: 24px; height: 24px; border-radius: 50%;margin-right: 5px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/ba/1a/3b/claudiaporto.jpg?w=100&h=-1&s=1" alt="" >
+                                    <p>By GeorgeM319</p>
+                              </div>
+                              <div class="comment" >
+                                    <p>As you enter Istanbul aboard ship, within the Bosporus, you can see and experience the vibrant ocean and inland water…
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+      
+            </div>
+      </div>
+            <div style="display: flex;width: 1150px;margin: auto;justify-content: center;">
+                  <button style="border-radius: 40%;width: 80px;" type="button" class="btn btn-dark">See all</button>
+            </div>
+            <div class="line-hr">
+                  <br>
+                  <br>
+                  <hr>
+                  <br>
+                  <br>
+               </div>
+
+
+
+               <footer class="footer">
+                  <div class="footer_intro">
+                      <div class="footer_top">
+                          <div class="footer_left">
+                              <img id="profile_image" style="margin-left: 0px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre">
+                              <div class="footer_top_top">
+                                  <div style="font-size: 12px;">© 2021 TripAdvisor LLC All rights reserved.</div>
+                                  <div class="nav">
+                                      <a id="nav_a" href="#">Terms of Use</a>
+                                      <a id="nav_a" href="#">Privacy and Cookies Statement</a>
+                                      <a id="nav_a" href="#">Cookie consent</a>
+                                      <a id="nav_a" href="#">Site Map</a>
+                                      <a id="nav_a" href="#">How the site works</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="select">
+                              <select class="custom-select" id="inputGroupSelect02">
+                                  <option selected>£ British Pounds</option>
+                                  <option value="1">$ U. S. Dollars</option>
+                                  <option value="2">A$ Australian Dollars </option>
+                                  <option value="3">Euros</option>
+                              </select>
+                              <select class="custom-select" id="inputGroupSelect02">
+                                  <option selected>United Kingdom</option>
+                                  <option value="1">Canada</option>
+                                  <option value="2">Brazil</option>
+                                  <option value="3">Russian</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="footer_bottom">
+                          <p>
+                              This is the version of our website addressed 
+                              to speakers of English in United Kingdom. If you are 
+                              a resident of another country or region, please 
+                              select the appropriate version of Tripadvisor 
+                              for your country or region in the drop-down menu. <a>more</a>
+                          </p>
+                      </div>
+                  </div>
+              </footer>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/footer.css">
+          <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+          <div style="display: flex; justify-content: center;background-color: #faf1ed;">
+                    <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" width="250" alt="" onclick="document.location='Main.html'">
+          </div>
+          <div id = "computed_props" style="margin: auto;align-items: center;text-align: center;">
+
+                    Search :<textarea id="" cols="40" rows="1" v-model = "info"></textarea>
+                    <h1 style="font-size: 20px;">Your search: {{info}} </h1>
+          </div>
+
+
+
+          <div id = "find" style="margin: auto;">
+                    <h1>Result not find!</h1><br>
+                    <div style="display: flex;">
+                              <p style="margin-right: 5%;">Please search on internet:</p>
+                              <button><a v-bind:href = "hreflink">Search on Internet</a></button>
+                    </div>
+          </div>
+
+
+          <footer class="footer" style="margin-top: 550px;">
+            <div class="footer_intro">
+                <div class="footer_top">
+                    <div class="footer_left">
+                        <img id="profile_image" style="margin-left: 0px;" src="assets/Resources/logo.png" class="rounded-circle header_elements" alt="Cinque Terre">
+                        <div class="footer_top_top">
+                            <div style="font-size: 12px;">© 2021 TripAdvisor LLC All rights reserved.</div>
+                            <div class="nav">
+                                <a id="nav_a" href="#">Terms of Use</a>
+                                <a id="nav_a" href="#">Privacy and Cookies Statement</a>
+                                <a id="nav_a" href="#">Cookie consent</a>
+                                <a id="nav_a" href="#">Site Map</a>
+                                <a id="nav_a" href="#">How the site works</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select">
+                        <select class="custom-select" id="inputGroupSelect02">
+                            <option selected>£ British Pounds</option>
+                            <option value="1">$ U. S. Dollars</option>
+                            <option value="2">A$ Australian Dollars </option>
+                            <option value="3">Euros</option>
+                        </select>
+                        <select class="custom-select" id="inputGroupSelect02">
+                            <option selected>United Kingdom</option>
+                            <option value="1">Canada</option>
+                            <option value="2">Brazil</option>
+                            <option value="3">Russian</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <p>
+                        This is the version of our website addressed 
+                        to speakers of English in United Kingdom. If you are 
+                        a resident of another country or region, please 
+                        select the appropriate version of Tripadvisor 
+                        for your country or region in the drop-down menu. <a>more</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+          <script type="text/javascript">
+                    var vm = new Vue({
+                              el: '#find',
+                              data: {
+                                        text: "",
+                                        hreflink: "http://www.google.com"
+                              }
+                    })
+          </script>
+             <script>
+
+var vm = new Vue({
+   el: '#computed_props',
+   data: {
+      info :"",
+
+   },
+   computed :{
+      getfullinfo: function(){
+         return "Your search "+ this.info;
+      }
+   }
+})
+             </script>        
+</body>
+</html>

@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    font-family: Trip Sans VF, Trip Sans, Arial, sans-serif;
+}
+.body_intro{
+    color: black;
+    margin: 0 auto;
+    width: 1100px;
+    background-color: rgb(255, 255, 255);
+    font-size: medium;
+}
+.one{
+    border-top: 1px solid rgba(196, 196, 196, 0.8);
+    border-bottom: 1px solid rgba(196, 196, 196, 0.8);
+    margin-top: 10px;
+}
+.one_div{
+    height: 35px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#one_id{
+    padding-top: 5px;
+    height: 35px;
+    text-decoration: none;
+    color: black;
+}
+#one_id:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.two{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.two_element p{
+    font-size: 12px;
+}
+
+.three{
+    margin: 0 auto;
+    background-color: aqua;
+    width: 1200px;
+    height: 250px;
+    background-image:url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f6/60/caption.jpg?w=1200&h=800&s=1) ;
+    background-position: center;
+}
+.three_in{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 250px;
+}
+.three_in h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.three_in p{
+    font-weight: 600;
+}
+.three_inputs input{
+    padding: 5px 5px 5px 5px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+}
+.date_input:hover{
+    cursor: pointer;
+}
+
+/**/
+.intro{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1100px;
+    padding-top: 60px;
+    border-top: 1px solid black;
+}
+.four_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.four_top_left h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+.four_top_left p{
+    font-size: 12px;
+}
+.top_button{
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    border-radius: 25px;
+}
+.select1{
+    padding: 0px 10px 0px 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: rgb(218, 216, 216);
+}
+.select1:hover{
+    cursor: pointer;
+    border-color: black;
+}
+.four_inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.four_left h6{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 550;
+}
+.button{
+    margin-left: 10px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.four_hotels{
+    display: flex;
+    flex-direction: column;
+}
+.part{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(155, 155, 155);
+
+}
+.part_img{
+    width: 300px;
+    height: 250px;
+}
+.part_img img{
+    width: 300px;
+    height: 250px;
+}
+.about_hotel{
+    display: flex;
+    flex-direction: column;
+}
+.part_name{
+    padding-left: 15px;
+}
+#sponsored{
+    justify-content: center;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    width: 70px;
+    height: 18px;
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 216);
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.part_name h5{
+    font-size: 16px;
+    font-weight: 550;
+}
+.part_name a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.part_name a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.part_name h6{
+    font-size: 14px;
+}
+.part_inf{
+    display: flex;
+    flex-direction: row;
+}
+.part_price{
+    width: 190px;
+    height: 150px;
+    border-right: 1px solid gray;
+    text-align: center;
+    justify-content: center;
+}
+#hotel_logo{
+    width: 100px;
+}
+#price{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#price h4{
+    font-size: 22px;
+    font-weight: 540;
+}
+#part_button{
+    width: 160px;
+    height: 35px;
+    background-color: #f2b203;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 540;
+}
+#part_button:hover{
+    background-color: #fdc735;
+}
+.part_price h6{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.part_2{
+    margin-left: 10px;
+    width: 140px;
+    height: 150px;
+    border-right: 1px solid gray;
+}
+
+#part_2_price{
+    margin-bottom: 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+#part_2_name{
+    margin-top: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+
+.part_about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    height: 150px;
+    width: 200px;
+    justify-content: space-between;
+}
+.part_about a{
+    text-decoration: none;
+    color: black;
+}
+.part_about a:hover{
+    text-decoration: underline;
+}
+
+.part_about h5{
+    margin: auto 0;
+    font-size: 12px;
+}
+#profile_name{
+    font-weight: 550;
+}
+#part_about_profile{
+    width: 25px;
+}
+#part_about_2{
+    font-size: 10px;
+}
+#part_about_3{
+    font-size: 11px;
+}
+
+@media (max-width: 1280px){
+    
+}
